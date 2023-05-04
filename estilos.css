@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+
+/* SELECTORES BASICOS */
+header, section, article, nav, footer, aside, figure, form{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+ h2{
+    background-image: linear-gradient(to right, #000000, #ff0095);
+    background-clip: text;
+    -webkit-background-clip: text; /* para navegadores webkit */
+    color: transparent;
+    text-transform: uppercase;
+}
+
+h2{font-size: 50px;}
+h3{font-size: 42px;}
+
+a{
+    text-decoration: none;
+}
+
+
+a img{
+    border: none,
+}
+ul, ol{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #493b3b;
+}
+
+#cajacabercera{
+    width: 100%;
+    background-image: linear-gradient(to right, #000000, #8b2271, #da42af);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    
+}
+#cabecera{
+    width: 100%;
+    max-height: 1100px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+#logo{
+    width: 20%;
+    padding: 6px 0;
+    display: flex;
+    align-items: end;
+}
+/* -------------------MENU------------------------ */
+
+.menu{
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10;
+    padding: 10;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    line-height: 90px;
+    padding: 0 10px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+}
+.menu a i{
+    font-size: 32px;
+    padding: 0 5px;
+}
+.menu a:hover{
+    color: #fff;
+    border-bottom: 2px solid #f2f2f2;
+    background-color: #af57a1;
+}
+section{
+    height: 920px;
+    background-color: #ffffff;
+    border-bottom: none;
+    padding-top: 100px
+}
+.banner{
+    height: 1004px;
+    background-image: url('/imagenes/13184292_5161886.jpg');
+    background-size:  cover;
+    background-position: center;
+    background-repeat:  no-repeat;
+}
+.inicio,.articulos{
+    background-color: #d1d1d1;
+}
+.inicio{
+    background-image: url('/imagenes/tren.png');
+    background-position: bottom;
+    background-repeat:  no-repeat;
+}
+.articulos{
+    background-image: url('/imagenes/tren.png');
+    background-position: bottom;
+    background-repeat:  no-repeat;
+}
+
+.calendario,.mas{
+    background-image: url('/imagenes/fondo-ciudad.png');
+    background-position: bottom;
+    background-repeat:  no-repeat;
+}
+footer{
+    background:#600239;
+    padding: 30px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+footer a i{
+    font-size: 36px;
+    padding: 0 15px;
+    color: #e130af;
+}
